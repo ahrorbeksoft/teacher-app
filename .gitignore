@@ -15,9 +15,9 @@ src/routeTree.gen.ts
 
 
 # Editor directories and files
-.vscode/*
+.vscode
 .tanstack
-.zed/*
+.zed
 .idea
 .DS_Store
 *.suo
