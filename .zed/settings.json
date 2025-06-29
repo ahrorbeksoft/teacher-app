@@ -1,0 +1,8 @@
+{
+  "file_scan_exclusions": [
+    "node_modules/",
+    ".tanstack/",
+    ".git/",
+    "src/routeTree.gen.ts"
+  ]
+}
