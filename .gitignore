@@ -11,12 +11,13 @@ node_modules
 dist
 dist-ssr
 *.local
+src/routeTree.gen.ts
+
 
 # Editor directories and files
-.vscode
+.vscode/*
 .tanstack
-src/routeTree.gen.ts
-.zed
+.zed/*
 .idea
 .DS_Store
 *.suo
