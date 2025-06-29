@@ -13,8 +13,10 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+.vscode
+.tanstack
+src/routeTree.gen.ts
+.zed
 .idea
 .DS_Store
 *.suo
