@@ -10,21 +10,27 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@instantdb/react": "^0.20.4",
     "@tailwindcss/vite": "^4.1.11",
     "@tanstack/react-router": "^1.122.0",
+    "@tanstack/react-store": "^0.7.1",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "js-cookie": "^3.0.5",
     "lucide-react": "^0.525.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "use-intl": "^4.3.1"
   },
   "devDependencies": {
     "@tanstack/router-plugin": "^1.122.1",
     "@tauri-apps/cli": "^2",
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^24.0.7",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
