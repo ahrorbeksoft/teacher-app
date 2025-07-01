@@ -6,6 +6,8 @@ import { IntlProvider, useTranslations } from "use-intl";
 import { languages } from "./lib/constants.ts";
 import { languageStore } from "./lib/stores.ts";
 
+import "./global.css";
+
 // Import the generated route tree
 import { routeTree } from "./routeTree.gen";
 

@@ -16,6 +16,7 @@ const _schema = i.schema({
       firstName: i.string(),
       lastName: i.string(),
       email: i.string().unique().indexed(),
+      nameOrder: i.string<"first" | "last">(),
 
       // timestamps
       createdAt: i.date(),
