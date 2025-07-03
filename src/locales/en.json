@@ -106,5 +106,8 @@
   "now": "now",
   "search-groups": "Search groups",
   "select-group": "Select group",
-  "add": "Add"
+  "add": "Add",
+  "expenses": "Expenses",
+  "payments": "Payments",
+  "courses": "Courses"
 }

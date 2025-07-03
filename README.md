@@ -1,7 +1,15 @@
-# Tauri + React + Typescript
+# Student Management WebApp for Tutors
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+I's a simple web app for managing groups, students, payments and expenses for independent tutors.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Group Management: Create, edit, and delete groups.
+- Student Management: Add, edit, and delete students.
+- Payment Management: Track payments made by students.
+- Expense Management: Track expenses.
+
+
+## Stack
+- Frontend: React with Vite & Tanstack Router
+- Backend: InstantDB
