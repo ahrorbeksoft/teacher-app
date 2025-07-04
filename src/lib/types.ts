@@ -10,6 +10,13 @@ export type Profile = InstaQLResult<
   }
 >["profiles"][number];
 
+export type Course = InstaQLResult<
+  AppSchema,
+  {
+    courses: {};
+  }
+>["courses"][number];
+
 export type Student = InstaQLResult<
   AppSchema,
   {

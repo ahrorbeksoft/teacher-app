@@ -52,9 +52,11 @@
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11",
     "use-intl": "^4.3.3",
-    "vaul": "^1.1.2"
+    "vaul": "^1.1.2",
+    "zod": "^3.25.71"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.0.6",
     "@tanstack/router-plugin": "^1.123.2",
     "@tauri-apps/cli": "^2.6.2",
     "@types/js-cookie": "^3.0.6",

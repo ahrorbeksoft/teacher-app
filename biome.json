@@ -7,8 +7,15 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "experimentalScannerIgnores": ["src/routeTree.gen.ts"],
-    "includes": ["src/*", ".vscode/*", "index.html", "vite.config.js"]
+    "experimentalScannerIgnores": [
+      "src/routeTree.gen.ts"
+    ],
+    "includes": [
+      "src/**/*",
+      ".vscode/**/*",
+      "index.html",
+      "vite.config.js"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -37,6 +44,7 @@
         "useValidAnchor": "warn"
       }
     }
+    
   },
   "javascript": {
     "formatter": {

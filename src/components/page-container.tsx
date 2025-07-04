@@ -9,10 +9,12 @@ export default function PageContainer({
 	container = true,
 	scrollable = true,
 	header,
+	headerClassName,
 }: {
 	children: React.ReactNode;
 	className?: string;
 	header?: React.ReactNode;
+	headerClassName?: string;
 	container?: boolean;
 	scrollable?: boolean;
 }) {
@@ -22,7 +24,11 @@ export default function PageContainer({
 
 	return (
 		<div className={cn("size-full", className)}>
-			{header && <div className="flex h-12 items-center justify-between gap-2 border-b px-2">{header}</div>}
+			{header && (
+				<div className={cn("flex h-12 items-center justify-between gap-2 border-b px-2", headerClassName)}>
+					{header}
+				</div>
+			)}
 			{scrollable ? (
 				<ScrollArea
 					className={cn(
